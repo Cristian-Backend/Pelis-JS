@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto JS Películas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="title-container">
+        <h1>Películas</h1>
+    </div>
+
+
+        <form> 
+            <div class="container">
+                <label>  Buscar Película</label>
+
+                <label for="page">Página</label>
+                <select id="page">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+        
+                <label for="language">Idioma</label>
+                <select id="language">
+                    <option value="es-MX">Español</option>
+                    <option value="en-US">Inglés</option>
+                </select>
+        
+                <button type="submit">Buscar Películas</button>
+            </div>
+        </form>
+    </div>
+
+    <div id="movies"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
